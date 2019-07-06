@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "sequelize": "^5.9.4",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha api/user/user.spec.js -w",
+    "start": "node bin/www.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
